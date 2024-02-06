@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<head>
+	<link rel="stylesheet" href="../css/new.css">
+	<link rel="stylesheet" href="../css/header.css">
+	<link rel="stylesheet" href="../css/summernote/summernote-lite.css">
+	<script src="../js/jquery.js"></script>
+	<script src="../js/post.js"></script>
+	
+	<script src="../js/summernote/summernote-lite.js"></script>
+	<script src="../js/summernote/lang/summernote-ko-KR.js"></script>
+</head>
+
+<body>
+	<header>
+		<div class="head-div">
+			<div class="logo-div">
+				<a href=""><img src="../img/logo.png" class="logo"></a>
+			</div>
+			<div class="menu-div">
+				<a href=""><div class="nav">입시후기</div></a>
+				<a href=""><div class="nav">선배에게 물어요</div></a>
+				<a href=""><div class="nav">커뮤니티</div></a>
+				<a href=""><div class="nav">FAQ</div></a>
+			</div>
+			<div class="user-div">
+				<a href=""><img src="../img/doScrap.png"></a>
+				<div class="my-info">
+					<img src="../img/defaultProfile.png">
+					<div class="dropdown_content">
+						<a href="#">프로필</a>
+						<a href="#">계정 관리</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<hr class="head-main" />
+	<main>
+		<div class="divide-three">
+			<div class="left"> <!-- 화면의 왼쪽 부분 -->
+				<div class="ad1-container">
+					<img class="ad1" src="../img/ad1.png" />
+				</div> <!-- 광고 끝 -->
+			</div>
+			<div class="middle">
+				<div class="middle-content">
+					<h3>더 많은 소통을 함께</h3>
+					<p>ㅇㅇㅇ님 대학 정보 공유 플랫폼 ooo에서 다양한 정보를 얻어보세요.</p>
+					<form>
+						<div class="form-div">
+							<div class="board-select-div">
+								<div>게시판</div>
+								<select name="board" class="select">
+									<option value="community">자유 게시판</option>
+									<option selected value="question">선배에게 물어요</option>
+									<option value="review">입시 후기</option>
+								</select>
+							</div>
+							<div class="write-title">
+								<div>제목</div>
+								<input type="text" placeholder="제목을 입력해주세요." id="title">
+							</div>
+							<div class="tags">
+								<div>태그 - <span class="explain">내용과 가장 관계있는 태그를 입력해주세요.</span></div>
+								<input type="text" id = "tag" autocomplete="off">
+							</div>
+							<div class="content">
+								<div>본문</div>
+								<textarea id="summernote" name="editordata"></textarea>
+							</div>
+							<div class="submit-div">
+								<button class="cancel">취소</button>
+								<button disabled="true" class="submit" id="submit">등록</button>
+							</div>
+						</div>
+					</form>
+				</div>
+				<div class="end-margin"></div>
+			</div>
+			<div class="right">
+				<div class="ad2-container">
+					<img src="../img/ad2.png">
+				</div>
+				<div class="ad3-container">
+					<img src="../img/ad3.png">
+				</div>
+			</div>
+	</main>
+	<script>
+		$('.summernote').summernote({
+			height: 450,
+			lang: "ko-KR"
+		});
+		$(document).ready(function () {
+			//여기 아래 부분
+			$('#summernote').summernote({
+				height: 500,                 // 에디터 높이
+				minHeight: null,             // 최소 높이
+				maxHeight: null,             // 최대 높이
+				focus: true,                  // 에디터 로딩후 포커스를 맞출지 여부
+				lang: "ko-KR",					// 한글 설정
+				placeholder: '최대 2048자까지 쓸 수 있습니다'	//placeholder 설정
+
+			});
+		});
+	</script>
+	<script src="../js/new.js"></script>
+	<script src="../js/header.js"></script>
+</body>
+</html>

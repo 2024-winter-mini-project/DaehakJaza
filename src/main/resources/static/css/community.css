@@ -1,0 +1,444 @@
+*{
+	font-family: Pretendard,ui-sans-serif,system-ui,-apple-system,
+							 BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,
+							 Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe 
+							 UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+	text-decoration-line: none;
+}
+.head-main{
+	margin-bottom: 18px;
+}
+
+.divide-three{
+	display: flex;
+	width: 70%;
+	margin: auto;
+	padding: 0px;
+}
+.left, .right{
+	width: 15%;
+}
+.middle{						
+	width: 70%;
+}
+
+/*여기서 부터 왼쪽 화면에 대한 css*/
+
+/* 인기태그 css */
+.famous-tags{
+	margin-top: 4px;
+}
+.famous-tags-title{
+	width: 100%;
+	height: 20px;
+	margin-bottom: 16px;
+}
+.famous-tags-title div{
+	font-size: 14px;
+}
+.famous-tags-container{
+	border-top: 1px solid rgba(107, 114, 128, 0.3);
+}
+.famous-tags-each{
+	margin-top: 24px;
+	display:flex;
+	justify-content: space-between;
+}
+.famous-tags-each span{
+	font-size: 14px;
+}
+.famous-tags-each div{
+	font-size: 14px;
+	color: black;
+}
+
+/* 광고1 css*/
+.ad1-container{
+	margin-top:40px;
+	width: 100%;
+}
+.ad1-container img{
+	width: 100%;
+}
+/* 인기 글쓴이 css */
+.top-writers{
+	margin-top:40px;
+}
+.top-writers-title{
+	width: 100%;
+	height: 20px;
+	padding-bottom: 16px;
+	border-bottom: 1px solid rgba(107, 114, 128, 0.3);
+}
+.top-writers-title div{
+	font-size: 14px;
+}
+.top-writers-each{
+	margin-top: 16px;
+	display:flex;
+	justify-content: space-between;
+}
+.info-link{
+	text-decoration: none;
+}
+.info-link img{
+	width:24px;
+	height:24px;
+	border-radius: 50%;
+	float: left;
+}
+.writer-name{
+	margin-left: 4px;
+	float:left;
+	font-size: 12px;
+	line-height: 24px;
+	text-align: center;
+	color: black;
+}
+.score-info img{
+	width: 24px;
+	height: 24px;
+	float: left;
+}
+.score{
+	font-size: 12px;
+	line-height: 24px;
+	float: left;
+}
+
+/* 중간 화면에 대한 css  */
+.middle-content{
+	margin-left: 40px;
+	margin-top: -25px;
+}
+.page-title{
+	margin-top:28px;
+	margin-bottom:28px;
+	height: 80px;
+	background-color: rgba(107, 114, 128, 0.3);
+	border-radius: 20px;
+}
+.title-word-div{
+	padding: 16px 32px;
+	height: 48px;
+}
+.title{
+	font-size: 20px;
+}
+.explaination{
+	font-size: 14px;
+}
+.write-sort-div{
+	margin-top: 24px;
+	margin-bottom: 24px;
+	display: flex;
+	justify-content: space-between;
+	height: 37px;
+}
+.write-link{
+	padding: 8px 16px;
+	background-color: rgb(0, 144, 249);
+	border-radius: 20px;
+	color: white;
+	position: relative;
+	top: 8px;
+}
+.write-link:hover{
+	filter: brightness(0.8);
+}
+.write-link img{
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+}
+.write-link span{
+	font-size: 14px;
+	margin-left: 4px;
+}
+.sorting-select-div{
+	background-color:rgba(107, 114, 128, 0.3);
+	width: 130px;
+	border-radius: 10px;
+	display: flex;
+	border: 1px solid black;
+	opacity: 0.5;
+}
+.sorting-select-div:hover{
+	opacity: 1;
+}
+.standard{
+	text-align: center;
+	font-size: 14px;
+	line-height: 37px;
+	height:100%;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.select-standard{
+	text-align: center;
+	font-size: 14px;
+	line-height: 37px;
+	height:100%;
+	border-left: 1px solid black;
+	padding-left: 20px;
+	padding-right: 10px;
+}
+.select-standard:hover{
+	cursor: pointer;
+}
+.dropdown-standard {
+	position: absolute;
+	display: none;
+	margin-top: 5px;
+	width: 100px;
+	background: rgba(107, 114, 128, 0.3);
+	border-radius: 5%;
+	box-shadow: 4px 4px 10px #c5b0b0;
+	animation: fade-in 1s ease;
+}
+.dropdown_standard div{
+	display: block;
+	text-align: left;
+	color: #ffffff;
+	padding: 0.5rem;
+	text-decoration: none;
+	display: block;
+	font-size: 16px;
+}
+.dropdown-standard div:hover{
+	color:rgb(0, 144, 249);
+}
+@keyframes fade-in {
+	from {
+			opacity: 0;
+	}
+	to {
+			opacity: 1;
+	}
+}
+.search-div{
+	border-top: 1px solid rgba(107, 114, 128, 0.3);
+	padding-top: 16px;
+	padding-bottom: 16px;
+	height: 30px;
+}
+.search{
+	margin:auto;
+	width: 200px;
+	border: 1px solid rgba(107, 114, 128, 0.3);
+	height: 100%;
+	border-radius: 20px;
+}
+.search form{
+	display: flex;
+	border-radius: 20px;
+	height: 100%;
+}
+input, button{
+	border: none;
+}
+.search-input{
+	border-radius: 20px;
+	padding-left: 10px;
+}
+.search-input:focus{
+	outline: none;
+}
+.search-button{
+	border-radius: 20px;
+	background-color: white;
+}
+.search-button:hover{
+	cursor: pointer;
+}
+/* 게시물들 css  */
+.content-div{
+	border-top: 1px solid rgba(107, 114, 128, 0.3);
+	padding-top: 16px;
+	padding-bottom: 16px;
+	display: flex;
+}
+.comment-div{
+	height: 140px;
+}
+.comment{
+	border: 1px solid rgba(107, 114, 128, 0.3);
+	border-radius: 5px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	width:60px;
+	text-align: center;
+	font-size: 14px;
+}
+.content-info-div{
+	margin-left: 16px;
+}
+.name-time-div{
+	display: flex;
+}
+.name-time-div img{
+	width: 20px;
+	height: 20px;
+	border-radius: 100px;
+}
+.name-time-div .name{
+	padding-left: 4px;
+	font-size: 14px;
+	line-height: 20px;
+	color: rgb(55, 65, 81);
+}
+.name-time-div .name:hover{
+	color: rgb(0, 144, 249);
+}
+.name-time-div div{
+	padding-left: 4px;
+	font-size: 14px;
+	line-height: 20px;
+	color: rgb(55, 65, 81);
+}
+.title-div{
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+.title{
+	font-size: 18px;
+	font-weight: 600;
+	color: black;
+}
+.detail-div{
+	margin-bottom: 16px;
+}
+.detail{
+	font-size: 14px;
+	color: black;
+}
+.detail:hover, .title:hover{
+	color: rgb(0, 144, 249);
+}
+.tag-views-div{
+	display: flex;
+	justify-content: space-between;
+}
+.tags{
+	display: flex;
+}
+.tag{
+	font-size: 14px;
+	margin-right: 10px;
+	color: rgb(75, 85, 99);
+}
+.views{
+	display: flex;
+}
+.views img{
+	width: 20px;
+	height: 20px;
+}
+.view-num{
+	margin-left: 10px;
+	font-size: 14px;
+}
+.tags a:hover{
+	color: rgb(0, 144, 249);
+}
+.last-blank{
+	height: 64px;
+	border-bottom: 1px solid rgba(107, 114, 128, 0.3);
+}
+/* 페이징 처리 css */
+.paging{
+	border-top: 1px solid rgba(107, 114, 128, 0.3);
+	margin-top: 16px;
+	margin-bottom: 16px;
+	display: flex;
+	justify-content: space-between;
+}
+.previous{
+	margin-right: 20%;
+}
+.previous-button{
+	border: 0;
+	background-color: transparent;
+	display: flex;
+}
+.previous-button img{
+	width: 20px;
+	height: 20px;
+	opacity: 0.3;
+}
+.previous-button div{
+	margin-left: 10px;
+	color: rgba(107, 114, 128, 0.3);
+	font-weight: 500;
+	font-size: 14px;
+}
+
+.next{
+	margin-left: 20%;
+}
+.next-button{
+	border: 0;
+	background-color: transparent;
+	display: flex;
+}
+.next-button img{
+	width: 20px;
+	height: 20px;
+	opacity: 0.3;
+}
+.next-button div{
+	color: rgba(107, 114, 128, 0.3);
+	font-weight: 500;
+	font-size: 14px;
+	margin-right: 10px;
+}
+.previous-button:hover, .next-button:hover{
+	cursor: pointer;
+}
+.previous-button:hover .word, .next-button:hover .word{
+	color: rgb(0, 144, 249);
+	opacity: 1;
+}
+.select-page{
+	display: flex;
+	justify-content: space-between;
+}
+.page-number{
+	font-size: 14px;
+	padding: 0px 16px 0px 16px;
+	color: rgba(107, 114, 128, 0.3);
+}
+.page-number-selected{
+	font-size: 14px;
+	padding: 0px 16px 0px 16px;
+	color: rgb(0, 144, 249);
+}
+.select-page button{
+	border: 0;
+	background-color: transparent;
+}
+.page-number:hover, .page-number-selected:hover{
+	cursor: pointer;
+	color: rgb(0, 144, 249);
+}
+.end-margin{
+	height: 100px;
+}
+
+/* 화면 오른쪽 부분 */
+.right{
+	margin-left: 40px;
+}
+.ad2-container{
+	width: 100%;
+}
+.ad2-container img{
+	width: 100%;
+}
+.ad3-container{
+	margin-top: 16px;
+	width: 100%;
+}
+.ad3-container img{
+	width: 100%;
+}

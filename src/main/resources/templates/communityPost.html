@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+
+<head>
+	<link rel="stylesheet" href="../css/post.css">
+	<link rel="stylesheet" href="../css/header.css">
+	<link rel="stylesheet" href="../css/summernote/summernote-lite.css">
+	<script src="../js/jquery.js"></script>
+	<script src="../js/post.js"></script>
+	<script src="../js/summernote/summernote-lite.js"></script>
+	<script src="../js/summernote/lang/summernote-ko-KR.js"></script>
+</head>
+
+<body>
+	<header>
+		<div class="head-div">
+			<div class="logo-div">
+				<a href=""><img src="../img/logo.png" class="logo"></a>
+			</div>
+			<div class="menu-div">
+				<a href=""><div class="nav">입시후기</div></a>
+				<a href=""><div class="nav">선배에게 물어요</div></a>
+				<a href=""><div class="nav">커뮤니티</div></a>
+				<a href=""><div class="nav">FAQ</div></a>
+			</div>
+			<div class="user-div">
+				<a href=""><img src="../img/doScrap.png"></a>
+				<div class="my-info">
+					<img src="../img/defaultProfile.png">
+					<div class="dropdown_content">
+						<a href="#">프로필</a>
+						<a href="#">계정 관리</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<hr class="head-main" />
+	<main>
+		<div class="divide-three">
+			<div class="left"> <!-- 화면의 왼쪽 부분 -->
+				<div class="ad1-container">
+					<img class="ad1" src="../img/ad1.png" />
+				</div> <!-- 광고 끝 -->
+			</div>
+			<div class="middle">
+				<div class="middle-content">
+					<div class="category-name">
+						<a href="community.html">자유 게시판</a>
+					</div>
+					<div class="content-div"> <!-- 컨텐츠가 들어갈 div -->
+						<div class="info-scrap-div"> <!-- 작성자와 스크랩 버튼-->
+							<div class="info-div">
+								<img src="../img/defaultProfile.png">
+								<div class="name-view-div">
+									<div class="name"><a href="">헤헤이</a></div>
+									<div class="time-view-div">
+										<div class="time">10:37</div>
+										<img src="../img/view.png">
+										<div class="view">132</div>
+									</div>
+								</div>
+							</div>
+							<div class="scrap-div">
+								<button type="button" id="scrap-button" onclick="changeScrapImg()"><img src="../img/doScrap.png"
+										id="scrap-img"></button>
+							</div>
+						</div>
+						<h1 class="title">비전공자 28살 여자 무경력인데요 컴공과 편입을 할까요 취직을 할까요..? 인프라 국비 한 번 들었습니다.</h1>
+						<div class="content">
+							학위가 자꾸 발목을 잡아서... 중견 이상 기업에 지원을 못하는 게 아쉬워서 학교를 갈까 생각중인데 그러면 무경력 30살에 신입이 되는 거라....
+							그냥 방통대를 다닐까요? 취직 공고도 너무 없고... 어떻게 해야 할 지 모르겠습니다. 나이가 너무 애매하네요...국비도 하필 별로인 걸 골라서...
+							한 번 더 듣고 싶고... 미치겠습니다. 학교를 갈까요 부트캠프를 들을까요 경력을 쌓을까요?
+						</div>
+						<div class="tag-like-div">
+							<div class="tags">
+								<a href="">#면접</a>
+								<a href="">#면접질문</a>
+								<a href="">#면접답변</a>
+							</div>
+							<div class="like-div">
+								<button id="like-button" onclick="like()"><img src="../img/like.png"></button>
+								<div id="like-num">3</div>
+							</div>
+						</div>
+					</div>
+					<div class="comments-div"> <!-- 댓글 창 -->
+						<div class="comment-num">4개의 댓글</div>
+					</div>
+					<div class="comment-write-div">
+						<img src="../img/defaultProfile.png">
+						<div class="comment-div">
+							<form method="post" id="comment-add">
+								<textarea id="summernote" name="editordata"></textarea>
+							</form>
+							<button form="comment-add" key="submit" class="comment-submit-button">댓글 쓰기</button>
+						</div>
+					</div>
+					<div class="comment">
+						<div class="info-div">
+							<img src="../img/defaultProfile.png">
+							<div class="name-view-div">
+								<div class="name"><a href="">헤헤이</a></div>
+								<div class="time">10:37</div>
+							</div>
+						</div>	
+						<div class="comment-content">
+							답변을 "어려웠다"로 끝내지 말고 "어려웠는데 어떻게 해결해냈다"로 끝내보세요
+						</div>
+					</div>
+					<div class="comment">
+						<div class="info-div">
+							<img src="../img/defaultProfile.png">
+							<div class="name-view-div">
+								<div class="name"><a href="">헤헤이</a></div>
+								<div class="time">10:37</div>
+							</div>
+						</div>	
+						<div class="comment-content">
+							답변을 "어려웠다"로 끝내지 말고 "어려웠는데 어떻게 해결해냈다"로 끝내보세요
+						</div>
+					</div>
+					<div class="comment">
+						<div class="info-div">
+							<img src="../img/defaultProfile.png">
+							<div class="name-view-div">
+								<div class="name"><a href="">헤헤이</a></div>
+								<div class="time">10:37</div>
+							</div>
+						</div>	
+						<div class="comment-content">
+							답변을 "어려웠다"로 끝내지 말고 "어려웠는데 어떻게 해결해냈다"로 끝내보세요
+						</div>
+					</div>
+					<div class="comment">
+						<div class="info-div">
+							<img src="../img/defaultProfile.png">
+							<div class="name-view-div">
+								<div class="name"><a href="">헤헤이</a></div>
+								<div class="time">10:37</div>
+							</div>
+						</div>	
+						<div class="comment-content">
+							답변을 "어려웠다"로 끝내지 말고 "어려웠는데 어떻게 해결해냈다"로 끝내보세요
+						</div>
+					</div>
+					<div class="last-comment">
+						<div class="info-div">
+							<img src="../img/defaultProfile.png">
+							<div class="name-view-div">
+								<div class="name"><a href="">헤헤이</a></div>
+								<div class="time">10:37</div>
+							</div>
+						</div>	
+						<div class="comment-content">
+							답변을 "어려웠다"로 끝내지 말고 "어려웠는데 어떻게 해결해냈다"로 끝내보세요
+						</div>
+					</div>
+					<div class="end-margin"></div>
+				</div>
+			</div>
+			<div class="right">
+				<div class="ad2-container">
+					<img src="../img/ad2.png">
+				</div>
+				<div class="ad3-container">
+					<img src="../img/ad3.png">
+				</div>
+			</div>
+	</main>
+	<script>
+		$('.summernote').summernote({
+			height: 450,
+			lang: "ko-KR"
+		});
+		$(document).ready(function () {
+			//여기 아래 부분
+			$('#summernote').summernote({
+				height: 100,                 // 에디터 높이
+				minHeight: null,             // 최소 높이
+				maxHeight: null,             // 최대 높이
+				focus: true,                  // 에디터 로딩후 포커스를 맞출지 여부
+				lang: "ko-KR",					// 한글 설정
+				placeholder: '최대 2048자까지 쓸 수 있습니다'	//placeholder 설정
+
+			});
+		});
+	</script>
+	<script src="../js/header.js"></script>
+</body>
+
+</html>
