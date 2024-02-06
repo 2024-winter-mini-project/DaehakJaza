@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<head>
+	<link rel="stylesheet" href="../css/community.css">
+	<link rel="stylesheet" href="../css/header.css">
+</head>
+<body>
+<header>
+	<div class="head-div">
+		<div class="logo-div">
+			<a href=""><img src="../img/logo.png" class="logo"></a>
+		</div>
+		<div class="menu-div">
+			<a href=""><div class="nav">입시후기</div></a>
+			<a href=""><div class="nav">선배에게 물어요</div></a>
+			<a href=""><div class="nav">커뮤니티</div></a>
+			<a href=""><div class="nav">FAQ</div></a>
+		</div>
+		<div class="user-div">
+			<a href=""><img src="../img/doScrap.png"></a>
+			<div class="my-info">
+				<img src="../img/defaultProfile.png">
+				<div class="dropdown_content">
+					<a href="#">프로필</a>
+					<a href="#">계정 관리</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>			<!-- 모든 페이지에 공통으로 들어갈 부분 추후 작성 예정  -->
+<hr class = "head-main"/>
+<main>
+	<div class ="divide-three">
+		<div class = "left">		<!-- 화면의 왼쪽 부분 -->
+			<div class="famous-tags"> <!-- 조회수가 많은 태그 순으로 정렬 -->
+				<div class="famous-tags-title">
+					<div>#인기 태그</div>
+				</div>
+				<div class="famous-tags-container">
+					<div class="famous-tags-each">
+						<a class="tag" href=""><div>#java</div></a>
+						<span class="visited">23</span>
+					</div> <!-- 태그 하나씩 -->
+					<div class="famous-tags-each">
+						<a class="tag" href=""><div>#springboot</div></a>
+						<span class="visited">23</span>
+					</div> <!-- 태그 하나씩 -->
+					<div class="famous-tags-each">
+						<a class="tag" href=""><div>#spring</div></a>
+						<span class="visited">23</span>
+					</div> <!-- 태그 하나씩 -->
+					<div class="famous-tags-each">
+						<a class="tag" href=""><div>#자바</div></a>
+						<span class="visited">23</span>
+					</div> <!-- 태그 하나씩 -->
+					<div class="famous-tags-each">
+						<a class="tag" href=""><div>#스프링</div></a>
+						<span class="visited">23</span>
+					</div> <!-- 태그 하나씩 -->
+				</div>
+			</div>			<!-- famous tag 끝 -->
+			<div class="ad1-container">
+				<img class="ad1" src="../img/ad1.png"/>
+			</div>			<!-- 광고 끝 -->
+			<div class="top-writers">
+				<div class="top-writers-title">
+					<div>Top Writers</div>
+				</div>
+				<div class="top-writers-each"> <!-- 유저 하나씩 -->
+					<div class="writer-info">
+						<a class="info-link" href="">
+							<img src="../img/defaultProfile.png"/>
+							<div class="writer-name">고등어통조림</div>
+						</a>
+					</div>  <!-- 유저 사진 및 이름 -->
+					<div class="score-info">
+						<img src="../img/medal.png">
+						<div class="score">398</div>
+					</div>	<!-- 이모티콘 및 이미지 -->
+				</div>
+				<div class="top-writers-each"> <!-- 유저 하나씩 -->
+					<div class="writer-info">
+						<a class="info-link" href="">
+							<img src="../img/defaultProfile.png"/>
+							<div class="writer-name">kenu</div>
+						</a>
+					</div>  <!-- 유저 사진 및 이름 -->
+					<div class="score-info">
+						<img src="../img/medal.png">
+						<div class="score">233</div>
+					</div>	<!-- 이모티콘 및 이미지 -->
+				</div>
+				<div class="top-writers-each"> <!-- 유저 하나씩 -->
+					<div class="writer-info">
+						<a class="info-link" href="">
+							<img src="../img/defaultProfile.png"/>
+							<div class="writer-name">옥탑방고양이</div>
+						</a>
+					</div>  <!-- 유저 사진 및 이름 -->
+					<div class="score-info">
+						<img src="../img/medal.png">
+						<div class="score">143</div>
+					</div>	<!-- 이모티콘 및 이미지 -->
+				</div>
+				<div class="top-writers-each"> <!-- 유저 하나씩 -->
+					<div class="writer-info">
+						<a class="info-link" href="">
+							<img src="../img/defaultProfile.png"/>
+							<div class="writer-name">mirheeoj</div>
+						</a>
+					</div>  <!-- 유저 사진 및 이름 -->
+					<div class="score-info">
+						<img src="../img/medal.png">
+						<div class="score">101</div>
+					</div>	<!-- 이모티콘 및 이미지 -->
+				</div>
+				<div class="top-writers-each"> <!-- 유저 하나씩 -->
+					<div class="writer-info">
+						<a class="info-link" href="">
+							<img src="../img/defaultProfile.png"/>
+							<div class="writer-name">초무쿤</div>
+						</a>
+					</div>  <!-- 유저 사진 및 이름 -->
+					<div class="score-info">
+						<img src="../img/medal.png">
+						<div class="score">100</div>
+					</div>	<!-- 이모티콘 및 이미지 -->
+				</div>
+			</div> <!-- top writer 끝 -->
+		</div>		<!-- 화면 왼쪽 부분 끝 -->
+		<div class = "middle"> <!-- 화면의 중앙 부분  -->
+			<div class="middle-content">
+				<div class="page-title"> <!-- 현재 게시판 이름이 들어갈 박스  -->
+					<div class="title-word-div">
+						<div class="title">선배에게 물어요</div>
+						<div class="explaination">질문을 통해 해당 대학에 대해 알아보아요</div>
+					</div>
+				</div>
+				<div class = write-sort-div>
+					<div class="write-button"> <!-- 글쓰기 버튼 -->
+						<a class="write-link" href="">
+							<img src="../img/pencil.png">
+							<span>글 쓰기</span>
+						</a>
+					</div>
+					<div class="sorting-select-div"> <!-- 정렬 순서 선택 버튼-->
+						<div class="standard">기준</div>
+						<div class="select-standard">
+							<span class="ss">최신순</span>
+							<div class="dropdown-standard">
+								<div class="standard-choose">최신순</div>
+								<div class="standard-choose">추천순</div>
+								<div class="standard-choose">답변순</div>
+								<div class="standard-choose">조회순</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="search-div"> <!-- 찾아보기 -->
+					<div class="search">
+						<form>
+						<input type="text" placeholder="커뮤니티에서 검색" class="search-input">
+						<button type="submit" class="search-button">검색</button>
+					</form>
+					</div>
+				</div>
+				<div class="content-div"> <!-- 각각의 게시물 -->
+					<div class="comment-div"> <!-- 답변 개수 -->
+						<div class="comment">답변<br>2</div>
+					</div>
+					<div class="content-info-div"> <!-- 게시물 정보 -->
+						<div class="name-time-div">
+							<img src="../img/defaultProfile.png">
+							<a href="" class="name">아무개사랑</a>
+							<div class="time">10:15</div>
+						</div>
+						<div class="title-div"><a class="title" href="">회사 몰래 이직 준비중인데</a></div>
+						<div class="detail-div"><a class="detail" href="">현재 저는 si회사를 다니고 있는 일년 조금 넘은 개발자입니다. 
+							개인적으로 만족하면서 다니던 중소 si회사였지만 올해는 프로젝트도 명확한 si프로젝트를 
+							할 거 같지 않고 더이상 회사의 일을하면서 얻을수 있는 스킬셋이나 역량을 못기를게 보여집니다. 
+							성장하고싶은 마음에 무섭지만...</a></div>
+						<div class="tag-views-div">
+							<div class="tags">
+								<a href="" class="tag">#이직고민</a>
+								<a href="" class="tag">#취업준비</a>
+								<a href="" class="tag">#SI업체</a>
+							</div>
+							<div class="views">
+								<img src="../img/view.png">
+								<div class="view-num">33</div>
+							</div>
+						</div>
+					</div>
+				</div> <!-- 게시물 하나 끝-->
+				<div class="content-div"> <!-- 각각의 게시물 -->
+					<div class="comment-div"> <!-- 답변 개수 -->
+						<div class="comment">답변<br>2</div>
+					</div>
+					<div class="content-info-div"> <!-- 게시물 정보 -->
+						<div class="name-time-div">
+							<img src="../img/defaultProfile.png">
+							<a href="" class="name">아무개사랑</a>
+							<div class="time">10:15</div>
+						</div>
+						<div class="title-div"><a class="title" href="">회사 몰래 이직 준비중인데</a></div>
+						<div class="detail-div"><a class="detail" href="">현재 저는 si회사를 다니고 있는 일년 조금 넘은 개발자입니다. 
+							개인적으로 만족하면서 다니던 중소 si회사였지만 올해는 프로젝트도 명확한 si프로젝트를 
+							할 거 같지 않고 더이상 회사의 일을하면서 얻을수 있는 스킬셋이나 역량을 못기를게 보여집니다. 
+							성장하고싶은 마음에 무섭지만...</a></div>
+						<div class="tag-views-div">
+							<div class="tags">
+								<a href="" class="tag">#이직고민</a>
+								<a href="" class="tag">#취업준비</a>
+								<a href="" class="tag">#SI업체</a>
+							</div>
+							<div class="views">
+								<img src="../img/view.png">
+								<div class="view-num">33</div>
+							</div>
+						</div>
+					</div>
+				</div> <!-- 게시물 하나 끝-->
+				<div class="content-div"> <!-- 각각의 게시물 -->
+					<div class="comment-div"> <!-- 답변 개수 -->
+						<div class="comment">답변<br>2</div>
+					</div>
+					<div class="content-info-div"> <!-- 게시물 정보 -->
+						<div class="name-time-div">
+							<img src="../img/defaultProfile.png">
+							<a href="" class="name">아무개사랑</a>
+							<div class="time">10:15</div>
+						</div>
+						<div class="title-div"><a class="title" href="">회사 몰래 이직 준비중인데</a></div>
+						<div class="detail-div"><a class="detail" href="">현재 저는 si회사를 다니고 있는 일년 조금 넘은 개발자입니다. 
+							개인적으로 만족하면서 다니던 중소 si회사였지만 올해는 프로젝트도 명확한 si프로젝트를 
+							할 거 같지 않고 더이상 회사의 일을하면서 얻을수 있는 스킬셋이나 역량을 못기를게 보여집니다. 
+							성장하고싶은 마음에 무섭지만...</a></div>
+						<div class="tag-views-div">
+							<div class="tags">
+								<a href="" class="tag">#이직고민</a>
+								<a href="" class="tag">#취업준비</a>
+								<a href="" class="tag">#SI업체</a>
+							</div>
+							<div class="views">
+								<img src="../img/view.png">
+								<div class="view-num">33</div>
+							</div>
+						</div>
+					</div>
+				</div> <!-- 게시물 하나 끝-->
+				<div class="content-div"> <!-- 각각의 게시물 -->
+					<div class="comment-div"> <!-- 답변 개수 -->
+						<div class="comment">답변<br>2</div>
+					</div>
+					<div class="content-info-div"> <!-- 게시물 정보 -->
+						<div class="name-time-div">
+							<img src="../img/defaultProfile.png">
+							<a href="" class="name">아무개사랑</a>
+							<div class="time">10:15</div>
+						</div>
+						<div class="title-div"><a class="title" href="">회사 몰래 이직 준비중인데</a></div>
+						<div class="detail-div"><a class="detail" href="">현재 저는 si회사를 다니고 있는 일년 조금 넘은 개발자입니다. 
+							개인적으로 만족하면서 다니던 중소 si회사였지만 올해는 프로젝트도 명확한 si프로젝트를 
+							할 거 같지 않고 더이상 회사의 일을하면서 얻을수 있는 스킬셋이나 역량을 못기를게 보여집니다. 
+							성장하고싶은 마음에 무섭지만...</a></div>
+						<div class="tag-views-div">
+							<div class="tags">
+								<a href="" class="tag">#이직고민</a>
+								<a href="" class="tag">#취업준비</a>
+								<a href="" class="tag">#SI업체</a>
+							</div>
+							<div class="views">
+								<img src="../img/view.png">
+								<div class="view-num">33</div>
+							</div>
+						</div>
+					</div>
+				</div> <!-- 게시물 하나 끝-->
+				<div class="content-div"> <!-- 각각의 게시물 -->
+					<div class="comment-div"> <!-- 답변 개수 -->
+						<div class="comment">답변<br>2</div>
+					</div>
+					<div class="content-info-div"> <!-- 게시물 정보 -->
+						<div class="name-time-div">
+							<img src="../img/defaultProfile.png">
+							<a href="" class="name">아무개사랑</a>
+							<div class="time">10:15</div>
+						</div>
+						<div class="title-div"><a class="title" href="">회사 몰래 이직 준비중인데</a></div>
+						<div class="detail-div"><a class="detail" href="">현재 저는 si회사를 다니고 있는 일년 조금 넘은 개발자입니다. 
+							개인적으로 만족하면서 다니던 중소 si회사였지만 올해는 프로젝트도 명확한 si프로젝트를 
+							할 거 같지 않고 더이상 회사의 일을하면서 얻을수 있는 스킬셋이나 역량을 못기를게 보여집니다. 
+							성장하고싶은 마음에 무섭지만...</a></div>
+						<div class="tag-views-div">
+							<div class="tags">
+								<a href="" class="tag">#이직고민</a>
+								<a href="" class="tag">#취업준비</a>
+								<a href="" class="tag">#SI업체</a>
+							</div>
+							<div class="views">
+								<img src="../img/view.png">
+								<div class="view-num">33</div>
+							</div>
+						</div>
+					</div>
+				</div> <!-- 게시물 하나 끝-->
+				<div class="content-div"> <!-- 각각의 게시물 -->
+					<div class="comment-div"> <!-- 답변 개수 -->
+						<div class="comment">답변<br>2</div>
+					</div>
+					<div class="content-info-div"> <!-- 게시물 정보 -->
+						<div class="name-time-div">
+							<img src="../img/defaultProfile.png">
+							<a href="" class="name">아무개사랑</a>
+							<div class="time">10:15</div>
+						</div>
+						<div class="title-div"><a class="title" href="">회사 몰래 이직 준비중인데</a></div>
+						<div class="detail-div"><a class="detail" href="">현재 저는 si회사를 다니고 있는 일년 조금 넘은 개발자입니다. 
+							개인적으로 만족하면서 다니던 중소 si회사였지만 올해는 프로젝트도 명확한 si프로젝트를 
+							할 거 같지 않고 더이상 회사의 일을하면서 얻을수 있는 스킬셋이나 역량을 못기를게 보여집니다. 
+							성장하고싶은 마음에 무섭지만...</a></div>
+						<div class="tag-views-div">
+							<div class="tags">
+								<a href="" class="tag">#이직고민</a>
+								<a href="" class="tag">#취업준비</a>
+								<a href="" class="tag">#SI업체</a>
+							</div>
+							<div class="views">
+								<img src="../img/view.png">
+								<div class="view-num">33</div>
+							</div>
+						</div>
+					</div>
+				</div> <!-- 게시물 하나 끝-->
+				<div class="content-div"> <!-- 각각의 게시물 -->
+					<div class="comment-div"> <!-- 답변 개수 -->
+						<div class="comment">답변<br>2</div>
+					</div>
+					<div class="content-info-div"> <!-- 게시물 정보 -->
+						<div class="name-time-div">
+							<img src="../img/defaultProfile.png">
+							<a href="" class="name">아무개사랑</a>
+							<div class="time">10:15</div>
+						</div>
+						<div class="title-div"><a class="title" href="">회사 몰래 이직 준비중인데</a></div>
+						<div class="detail-div"><a class="detail" href="">현재 저는 si회사를 다니고 있는 일년 조금 넘은 개발자입니다. 
+							개인적으로 만족하면서 다니던 중소 si회사였지만 올해는 프로젝트도 명확한 si프로젝트를 
+							할 거 같지 않고 더이상 회사의 일을하면서 얻을수 있는 스킬셋이나 역량을 못기를게 보여집니다. 
+							성장하고싶은 마음에 무섭지만...</a></div>
+						<div class="tag-views-div">
+							<div class="tags">
+								<a href="" class="tag">#이직고민</a>
+								<a href="" class="tag">#취업준비</a>
+								<a href="" class="tag">#SI업체</a>
+							</div>
+							<div class="views">
+								<img src="../img/view.png">
+								<div class="view-num">33</div>
+							</div>
+						</div>
+					</div>
+				</div> <!-- 게시물 하나 끝-->
+				<div class="content-div"> <!-- 각각의 게시물 -->
+					<div class="comment-div"> <!-- 답변 개수 -->
+						<div class="comment">답변<br>2</div>
+					</div>
+					<div class="content-info-div"> <!-- 게시물 정보 -->
+						<div class="name-time-div">
+							<img src="../img/defaultProfile.png">
+							<a href="" class="name">아무개사랑</a>
+							<div class="time">10:15</div>
+						</div>
+						<div class="title-div"><a class="title" href="">회사 몰래 이직 준비중인데</a></div>
+						<div class="detail-div"><a class="detail" href="">현재 저는 si회사를 다니고 있는 일년 조금 넘은 개발자입니다. 
+							개인적으로 만족하면서 다니던 중소 si회사였지만 올해는 프로젝트도 명확한 si프로젝트를 
+							할 거 같지 않고 더이상 회사의 일을하면서 얻을수 있는 스킬셋이나 역량을 못기를게 보여집니다. 
+							성장하고싶은 마음에 무섭지만...</a></div>
+						<div class="tag-views-div">
+							<div class="tags">
+								<a href="" class="tag">#이직고민</a>
+								<a href="" class="tag">#취업준비</a>
+								<a href="" class="tag">#SI업체</a>
+							</div>
+							<div class="views">
+								<img src="../img/view.png">
+								<div class="view-num">33</div>
+							</div>
+						</div>
+					</div>
+				</div> <!-- 게시물 하나 끝-->
+				<div class="content-div"> <!-- 각각의 게시물 -->
+					<div class="comment-div"> <!-- 답변 개수 -->
+						<div class="comment">답변<br>2</div>
+					</div>
+					<div class="content-info-div"> <!-- 게시물 정보 -->
+						<div class="name-time-div">
+							<img src="../img/defaultProfile.png">
+							<a href="" class="name">아무개사랑</a>
+							<div class="time">10:15</div>
+						</div>
+						<div class="title-div"><a class="title" href="">회사 몰래 이직 준비중인데</a></div>
+						<div class="detail-div"><a class="detail" href="">현재 저는 si회사를 다니고 있는 일년 조금 넘은 개발자입니다. 
+							개인적으로 만족하면서 다니던 중소 si회사였지만 올해는 프로젝트도 명확한 si프로젝트를 
+							할 거 같지 않고 더이상 회사의 일을하면서 얻을수 있는 스킬셋이나 역량을 못기를게 보여집니다. 
+							성장하고싶은 마음에 무섭지만...</a></div>
+						<div class="tag-views-div">
+							<div class="tags">
+								<a href="" class="tag">#이직고민</a>
+								<a href="" class="tag">#취업준비</a>
+								<a href="" class="tag">#SI업체</a>
+							</div>
+							<div class="views">
+								<img src="../img/view.png">
+								<div class="view-num">33</div>
+							</div>
+						</div>
+					</div>
+				</div> <!-- 게시물 하나 끝-->
+				<div class="content-div"> <!-- 각각의 게시물 -->
+					<div class="comment-div"> <!-- 답변 개수 -->
+						<div class="comment">답변<br>2</div>
+					</div>
+					<div class="content-info-div"> <!-- 게시물 정보 -->
+						<div class="name-time-div">
+							<img src="../img/defaultProfile.png">
+							<a href="" class="name">아무개사랑</a>
+							<div class="time">10:15</div>
+						</div>
+						<div class="title-div"><a class="title" href="">회사 몰래 이직 준비중인데</a></div>
+						<div class="detail-div"><a class="detail" href="">현재 저는 si회사를 다니고 있는 일년 조금 넘은 개발자입니다. 
+							개인적으로 만족하면서 다니던 중소 si회사였지만 올해는 프로젝트도 명확한 si프로젝트를 
+							할 거 같지 않고 더이상 회사의 일을하면서 얻을수 있는 스킬셋이나 역량을 못기를게 보여집니다. 
+							성장하고싶은 마음에 무섭지만...</a></div>
+						<div class="tag-views-div">
+							<div class="tags">
+								<a href="" class="tag">#이직고민</a>
+								<a href="" class="tag">#취업준비</a>
+								<a href="" class="tag">#SI업체</a>
+							</div>
+							<div class="views">
+								<img src="../img/view.png">
+								<div class="view-num">33</div>
+							</div>
+						</div>
+					</div>
+				</div> <!-- 게시물 하나 끝-->
+				<!--<div class="last-blank"></div> -->
+				<div class="paging"> <!-- page를 나타내기 위한 요소 -->
+					<div class="previous">
+						<button class="previous-button">
+							<img src="../img/leftArrow.png"/>
+							<div class="word">Previous</div>
+						</button>
+					</div>
+					<div class="select-page">
+						<button><div class="page-number-selected">1</div></button>
+						<button><div class="page-number">2</div></button>
+						<button><div class="page-number">3</div></button>
+						<button><div class="page-number">...</div></button>
+						<button><div class="page-number">67654</div></button>
+
+					</div>
+					<div class="next">
+						<button class="next-button">
+							<div class="word">Next</div>
+							<img src="../img/rightArrow.png"/>
+						</button>
+					</div>
+				</div>
+				<div class="end-margin"></div>
+			</div>
+		</div>		
+		<div class = "right"> <!-- 화면의 오른쪽 부분  -->
+			<div class="ad2-container">
+				<img src="../img/ad2.png">
+			</div>
+			<div class="ad3-container">
+				<img src="./img/ad3.png">	
+			</div>
+		</div>
+	</div>
+</main>
+<footer>
+
+
+
+
+</footer>  			<!-- 모든 페이지에 공통으로 들어갈 부분 추후 작성 예정 -->
+<script src="../js/header.js"></script>
+<script src="../js/community.js"></script>
+</body>
+</html>

@@ -1,0 +1,215 @@
+button{
+	border: 0;
+  background-color: transparent;
+}
+.head-main{
+	margin-bottom: 18px;
+}
+.divide-three{
+	display: flex;
+	width: 70%;
+	margin: auto;
+	padding: 0px;
+}
+.left, .right{
+	width: 15%;
+}
+.middle{						
+	width: 70%;
+}
+/* 화면 왼쪽 */
+/* 광고1 css*/
+.ad1-container{
+	margin-top:40px;
+	width: 100%;
+}
+.ad1-container img{
+	width: 100%;
+}
+
+/* 화면 중앙 */
+.middle-content{
+	margin-left: 40px;
+}
+.category-name{
+	display: flex;
+	flex-basis: 100%;
+	align-items: center;
+	color: rgba(107, 114, 128, 0.3);
+	font-size: 12px;
+	margin-bottom: 28px;
+}
+.category-name::before,
+.category-name::after {
+	content: "";
+	flex-grow: 1;
+	background: rgba(107, 114, 128, 0.3);
+	height: 1px;
+	font-size: 0px;
+	line-height: 0px;
+}
+.category-name a{
+	font-size: 14px;
+	text-decoration: none;
+	color: rgba(107, 114, 128, 0.3);
+}
+.category-name a:hover{
+	color: rgb(0, 144, 249);
+}
+.content-div{
+	margin-top: 36px;
+	margin-bottom: 56px;
+}
+.info-scrap-div{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 36px;
+}
+.info-div{
+	display: flex;
+}
+.info-div img{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+.name-view-div{
+	margin-left: 8px;
+}
+.name{
+	font-size: 16px;
+}
+.name a{
+	text-decoration: none;
+	color: black;
+}
+.name a:hover{
+	color: rgb(0, 144, 249);
+}
+.time-view-div{
+	display: flex;
+}
+.time-view-div img{
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+	margin-left: 10px;
+}
+.time{
+	font-size: 12px;
+}
+.view{
+	margin-left: 4px;
+	font-size: 12px;
+}
+.scrap-div button{
+	border: 0;
+  background-color: transparent;
+}
+.scrap-div button:hover{
+	cursor: pointer;
+}
+.scrap-div img{
+	width: 24px;
+	height: 24px;
+}
+.content{
+	margin: 32px 0px 32px 0px;
+}
+.tag-like-div{
+	display: flex;
+	justify-content: space-between;
+}
+.tags a{
+	font-size: 14px;
+	text-decoration: none;
+	background-color: rgba(107, 114, 128, 0.3);
+	border-radius: 10px;
+	margin: 2px 6px;
+	padding: 6px 12px;
+	color: black;
+}
+.tags a:hover{
+	color: rgb(0, 144, 249);
+}
+.like-div{
+	display: flex;
+}
+.like-div img{
+	width: 24px;
+	height: 24px;
+}
+#like-button:hover{
+	cursor: pointer;
+}
+#like-num{
+	font-size: 14px;
+	line-height: 24px;
+}
+.comments-div{
+	border-top: 1px solid rgba(107, 114, 128, 0.3);
+}
+.comment-num{
+	margin-top:16px;
+	margin-bottom: 32px;
+	font-size: 16px;
+}
+.comment-write-div{
+	margin: 40px 0px;
+	border: 1px solid rgba(107, 114, 128, 0.3);
+	padding: 24px;
+	display: flex;
+}
+.comment-write-div img{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin-right: 20px;
+}
+.comment-submit-button{
+	float:right;
+	margin-top: 16px;
+	background-color: rgb(0, 144, 249);
+	padding: 8px 32px;
+	font-size: 14px;
+	color: white;
+	font-weight: 600;
+	opacity: 0.5;
+	border-radius: 10px;
+}
+.comment-submit-button:hover{
+	cursor: pointer;
+	opacity: 1;
+}
+.comment{
+	padding: 24px 0px;
+	border-bottom: 1px solid rgba(107, 114, 128, 0.3);
+}
+.comment-content{
+	padding: 5px 0px;
+	font-size: 14px;
+	margin-top: 20px;
+}
+.last-comment{
+	padding: 24px 0px;
+}
+.end-margin{
+	height: 100px;
+}
+/* 화면 오른쪽 부분 */
+.right{
+	margin-left: 40px;
+}
+.ad2-container{
+	width: 100%;
+}
+.ad2-container img{
+	width: 100%;
+}
+.ad3-container{
+	margin-top: 16px;
+	width: 100%;
+}
+.ad3-container img{
+	width: 100%;
+}
