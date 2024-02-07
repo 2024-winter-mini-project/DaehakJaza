@@ -1,0 +1,660 @@
+/* community.css 참고 */
+.middle-content{
+	margin-left: 40px;
+}
+.page-title{
+	height: 174px;
+	background-color: hsla(220,9%,46%,.3);
+    border-width: 1px;
+	border-radius: 8px;
+    overflow:hidden;
+    box-sizing: border-box;
+    border: 0 solid #e5e7eb;
+    display: block;
+}
+
+.divide-three{
+	display: flex;
+	width: 70%;
+	margin: auto;
+	padding: 0px;
+}
+
+/* 여기서부터 중간에 배정우가 새로 추가 */
+ .middle_jw{						
+	width: 100%;
+	overflow: visible;
+	max-height: 100%;
+	position: static;
+	display: block;
+}
+.name-title {
+    border-color: hsla(220,9%,46%,.3);
+    border-width: 1px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-sizing: border-box;
+    border: 0 solid #e5e7eb;    
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.page-title1 {
+    margin-top:32px;
+    margin-bottom:32px;
+    margin-left:28px;
+    margin-right:28px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    box-sizing: border-box;
+    border: 0 solid #e5e7eb;
+}
+
+.page-title1 a {
+    color: #0090f9;
+    text-decoration: inherit;
+    box-sizing: border-box;
+    border: 0 solid #e5e7eb;
+    cursor:pointer;
+}
+
+.page-title1-img {
+    width: 40px;
+    height: 40px;
+    border-color: hsla(220,9%,46%,.3);
+    border-width: 1px;
+    border-radius: 9999px;
+}
+
+.page-title1 .name-write {
+    font-size:20px;
+    line-height:30px;
+    margin-left: 20px;
+    flex-direction: column;
+    flex: 1 1 0%;
+    display:flex;
+    box-sizing: border-box;
+    border: 0 solid #e5e7eb;    
+}
+
+.page-title1 .name-write .name-write-word {
+    column-gap: 4px;
+    align-items: center;
+    display: flex;
+    box-sizing: border-box;
+    border: 0 solid #e5e7eb;
+}
+.page-title1 .name-write .name-write-word .name-write-word-real{
+    font-weight: 700;
+    padding-left: 2px;
+    width: fit-content;
+    box-sizing: border-box;
+    border: 0 solid #e5e7eb;
+}
+
+.page-title1 button {
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 18px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 16px;
+	padding-right: 16px;
+	--tw-bg-opacity: 1;
+	background-color: rgb(255 255 255/var(--tw-bg-opacity));
+	border-color: hsla(220,9%,46%,.3);
+	border-width: 1px;
+	border-radius: 6px;
+	justify-content: center;
+	display: inline-flex;
+	background-image: none;
+	cursor: pointer;
+	text-transform: none;
+	font-family: inherit;
+    font-feature-settings: inherit;
+    font-variation-settings: inherit;
+	color: inherit;
+	margin: 0;
+	box-sizing: border-box;
+    border: 0 solid #e5e7eb;
+	/* width랑 height 어떻게 키우는겨...ㅠ */
+	width: 85px;
+	height: 38px;
+}
+
+.page-title2 {
+	column-gap: 32px;
+	padding-left: 24px;
+	padding-right: 24px;
+	border-color: hsla(220,9%,46%,.3);
+	border-top-width: 1px;
+	display: flex;
+	position: relative;
+	box-sizing: border-box;
+    border: 0 solid #e5e7eb;
+}
+
+.page-title2 .page-title2-recent {
+	--tw-text-opacity: 1;
+    color: rgb(0 144 249/var(--tw-text-opacity));
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 18px;
+	text-align: center;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	padding-left: 4px;
+	padding-right: 4px;
+	overflow: hidden;
+	justify-content: center;
+	align-items: center;
+	min-width: 0;
+	display: flex;
+	position: relative;
+	text-decoration: inherit;
+	box-sizing: border-box;
+    border: 0 solid #e5e7eb;
+	cursor: pointer;
+}
+
+.page-title2 .page-title2-recent span{
+	box-sizing: border-box;
+	border: 0 solid #e5e7eb;
+}
+
+.page-title2-recent-top2 {
+	--tw-text-opacity: 1;
+    color: rgb(107 114 128/var(--tw-text-opacity));
+}
+
+.page-title2 .page-title2-recent .page-title2-recent-bottom1 {
+	--tw-bg-opacity: 1;
+    background-color: rgb(0 144 249/var(--tw-bg-opacity));
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	position: absolute;
+	box-sizing: border-box;
+    border: 0 solid #e5e7eb;
+}
+
+.page-content {
+	margin-top: 28px;
+	box-sizing: border-box;
+	display: block;
+	border-bottom: 1px solid rgba(107, 114, 128, 0.3);
+}
+
+.page-content-last {
+	margin-top: 28px;
+	box-sizing: border-box;
+	display: block;
+	border-bottom: 0px solid rgba(107, 114, 128, 0.3);
+}
+
+.last-page-content {
+	margin-top: 28px;
+	box-sizing: border-box;
+	display: block;
+}
+
+.page-content-things {
+	list-style: none;
+    margin: 0;
+    padding: 0;
+	box-sizing: border-box;
+    border: 0 solid #e5e7eb;
+	display: block;
+	margin-block-start: 16px;
+    margin-block-end: 1px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.page-content-things-in {
+	padding-top: 18px;
+	padding-bottom: 18px;
+	box-sizing: border-box;
+    border: 0 solid #e5e7eb;
+	display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.page-content-things-in .stuff {
+	align-items: center;
+	display: flex;
+	box-sizing: border-box;
+    border: 0 solid #e5e7eb;
+}
+
+.page-content-things-in .stuff .stuff1 {
+	width: 100%;
+	box-sizing: border-box;
+    border: 0 solid #e5e7eb;
+	display: block;
+}
+
+.page-content-things-in .stuff .stuff1 .stuff1-1 {
+	column-gap: 8px;
+	align-items: center;
+	display: flex;
+	box-sizing: border-box;
+    border: 0 solid #e5e7eb;
+}
+
+.page-content-things-in .stuff .stuff1 .stuff1-1 .stuff1-1-left {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	column-gap: 6px;
+	align-items: center;
+	flex: 1 1 0%;
+	display: flex;
+	--tw-ring-color: rgba(0,144,249,.5);
+	--tw-ring-offset-color: #fff;
+	box-sizing: border-box;
+    border: 0 solid #e5e7eb;
+}
+
+.page-content-things-in .stuff .stuff1 .stuff1-1 .stuff1-1-left-thing {
+	--tw-text-opacity: 1;
+    color: rgb(107 114 128/var(--tw-text-opacity));
+	word-break: break-all;
+	flex: 1 1 0%;
+	overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+	-webkit-line-clamp: 1;
+	box-sizing: border-box;
+    border: 0 solid #e5e7eb;
+}
+
+.page-content-things-in .stuff .stuff1 .stuff1-1 .stuff1-1-left-thing span{
+	--tw-text-opacity: 1;
+    color: rgb(0 144 249/var(--tw-text-opacity));
+	box-sizing: border-box;
+    border: 0 solid #e5e7eb;
+}
+
+.stuff1-1-left a{
+	--tw-text-opacity: 1;
+    color: rgb(0 144 249/var(--tw-text-opacity));
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 16px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-left: 12px;
+	padding-right: 12px;
+	border-color: hsla(220,9%,46%,.3);
+	border-width: 1px;
+	border-radius: 16px;
+	text-decoration: inherit;
+	--tw-ring-color: rgba(0,144,249,.5);
+    --tw-ring-offset-shadow: 0 0 #0000;
+	box-sizing: border-box;
+    border: 1px solid rgba(107, 114, 128, 0.3);
+	cursor: pointer;
+}
+
+.page-content-things .page-content-things-in .stuff .stuff1 .stuff1-1 .stuff1-1-right {
+	display: block;
+	--tw-text-opacity: 1;
+    color: rgb(107 114 128/var(--tw-text-opacity));
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	--tw-ring-offset-color: #fff;
+    --tw-ring-color: rgba(0,144,249,.5);
+	box-sizing: border-box;
+    border: 0 solid #e5e7eb;
+}
+
+.page-content-things .page-content-things-in .stuff .stuff1 .stuff1-2 {
+	--tw-space-y-reverse: 0;
+    margin-top: calc(8px * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(8px * var(--tw-space-y-reverse));
+	box-sizing: border-box;
+    border: 0 solid #e5e7eb;
+	display: block;
+}
+
+.page-content-things .page-content-things-in .stuff .stuff1 .stuff1-2 .stuff1-2-1{
+	font-size: 16px;
+	line-height: 24px;
+	--tw-text-opacity: 1;
+    color: rgb(17 24 39/var(--tw-text-opacity));
+	font-weight: 600;
+	word-break: break-all;
+	width: fit-content;
+	overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+	-webkit-line-clamp: 1;
+	text-decoration: inherit;
+	box-sizing: border-box;
+    border: 0 solid #e5e7eb;
+	cursor: pointer;
+}
+
+/* out_check.html */
+.out-check {
+    -webkit-font-smoothing: antialiased;
+    --tw-text-opacity: 1;
+    color: rgb(17 24 39/var(--tw-text-opacity));
+    flex-direction: column;
+    user-select: auto;
+    height: 100%;
+    display: flex;
+    margin: 0;
+    line-height: inherit;
+    box-sizing: border-box;
+    border: 0 solid #e5e7eb;
+}
+
+.out-check-middle {
+    padding-left: 0;
+    padding-right: 0;
+    margin-top:128px;
+    padding-bottom: 64px;
+    justify-content: center;
+    display: flex;
+    box-sizing: border-box;
+    border: 0 solid #e5e7eb;
+}
+
+.out-check-middle-core {
+    max-width: 448px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 0 solid #e5e7eb;
+    display: block;
+}
+
+.middle-img {
+    width: auto;
+    height: 48px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    display: block;
+    vertical-align: middle;
+    box-sizing: border-box;
+    border: 0 solid #e5e7eb;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.middle-h2 {
+    font-size: 26px;
+    line-height: 36px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 24px;
+    margin: 0;
+    box-sizing: border-box;
+    border: 0 solid #e5e7eb;
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.telling {
+    margin-left: 0;
+    margin-right: 0;    
+    box-sizing: border-box;
+    border: 0 solid #e5e7eb;
+    display: block;
+}
+
+.telling-top {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    box-sizing: border-box;
+    border: 0 solid #e5e7eb;
+    display: block;
+}
+
+.telling-top-content {
+    padding: 16px;   
+    --tw-bg-opacity: 1;
+    background-color: rgb(249 250 251/var(--tw-bg-opacity));
+    border-radius: 6px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 0 solid #e5e7eb;
+    display: block;
+}
+
+.telling-top-content .things {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    margin: 0;
+    margin-block-start: 16px;
+    margin-block-end: 16px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.things .two-contents {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 0 solid #e5e7eb;
+    display: block;
+}
+
+.things .two-contents .break-keep {
+    word-break: keep-all;
+    margin: 0;
+    box-sizing: border-box;
+    border: 0 solid #e5e7eb;
+    display: block;
+    margin-block-start: 16px;
+    margin-block-end: 16px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.break-keep .highlight {
+    text-decoration-line: underline;
+    font-weight: 500;
+    text-decoration: inherit;
+    box-sizing: border-box;
+    border: 0 solid #e5e7eb;
+    cursor: pointer;
+}
+
+.fonnt-semibold {
+    font-weight: 600;
+    box-sizing: border-box;
+    border: 0 solid #e5e7eb;
+    word-break: keep-all;
+}
+
+.underline {
+    text-decoration-line: underline;
+    color: #0090f9;
+    text-decoration: inherit;
+    box-sizing: border-box;
+    border: 0 solid #e5e7eb;
+    cursor: pointer;
+}
+
+.telling-bottom {
+    display: flex;
+    margin-top: 28px;
+    box-sizing: border-box;
+    border: 0 solid #e5e7eb;
+}
+
+.telling-bottom button {
+    height: 40px;
+}
+.cancel {
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow);
+    --tw-shadow: 0 1px 2px 0 rgba(0,0,0,.05);
+    --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255/var(--tw-bg-opacity));
+    border-color: hsla(220,9%,46%,.3);
+    border-width: 1px;
+    border-radius: 6px;
+    flex: 1 1 0%;
+    -webkit-appearance: button;
+    background-image: none;
+    cursor: pointer;
+    text-transform: none;
+    font-family: inherit;
+    font-feature-settings: inherit;
+    font-variation-settings: inherit;
+    color: inherit;
+    margin: 0;
+    box-sizing: border-box;
+    border: 0 solid #e5e7eb;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    padding-block: 1px;
+    padding-inline: 6px;
+}
+
+.yes {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(1rem * var(--tw-space-x-reverse));
+    margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255/var(--tw-text-opacity));
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    --tw-bg-opacity: 1;
+    background-color: rgb(239 68 68/var(--tw-bg-opacity));
+    border-color: transparent;
+    border-width: 1px;
+    border-radius: 6px;
+    flex: 1 1 0%;
+    -webkit-appearance: button;
+    background-image: none;
+    cursor: pointer;
+    text-transform: none;
+    font-family: inherit;
+    font-feature-settings: inherit;
+    font-variation-settings: inherit;
+    margin: 0;
+    box-sizing: border-box;
+    border: 0 solid #e5e7eb;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    padding-block: 1px;
+    padding-inline: 6px;
+    -webkit-font-smoothing: antialiased;
+    user-select: auto;
+}
+
+/* 페이징 처리 css _ 여기부턴 community.css 참고 */
+.paging{
+	border-top: 1px solid rgba(107, 114, 128, 0.3);
+	margin-top: 16px;
+	margin-bottom: 16px;
+	display: flex;
+	justify-content: space-between;
+}
+.previous{
+	margin-right: 20%;
+}
+.previous-button{
+	border: 0;
+	background-color: transparent;
+	display: flex;
+}
+.previous-button img{
+	width: 20px;
+	height: 20px;
+	opacity: 0.3;
+}
+.previous-button div{
+	margin-left: 10px;
+	color: rgba(107, 114, 128, 0.3);
+	font-weight: 500;
+	font-size: 14px;
+}
+
+.next{
+	margin-left: 20%;
+}
+.next-button{
+	border: 0;
+	background-color: transparent;
+	display: flex;
+}
+.next-button img{
+	width: 20px;
+	height: 20px;
+	opacity: 0.3;
+}
+.next-button div{
+	color: rgba(107, 114, 128, 0.3);
+	font-weight: 500;
+	font-size: 14px;
+	margin-right: 10px;
+}
+.previous-button:hover, .next-button:hover{
+	cursor: pointer;
+}
+.previous-button:hover .word, .next-button:hover .word{
+	color: rgb(0, 144, 249);
+	opacity: 1;
+}
+.select-page{
+	display: flex;
+	justify-content: space-between;
+}
+.page-number{
+	font-size: 14px;
+	padding: 0px 16px 0px 16px;
+	color: rgba(107, 114, 128, 0.3);
+}
+.page-number-selected{
+	font-size: 14px;
+	padding: 0px 16px 0px 16px;
+	color: rgb(0, 144, 249);
+}
+.select-page button{
+	border: 0;
+	background-color: transparent;
+}
+.page-number:hover, .page-number-selected:hover{
+	cursor: pointer;
+	color: rgb(0, 144, 249);
+}
+.end-margin{
+	height: 100px;
+}
