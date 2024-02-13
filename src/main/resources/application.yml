@@ -1,14 +1,24 @@
 server:
   port: 10582
 
-#MyBatis
 log4jdbc:
   spylogdelegator:
     name: net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator
+  drivers: com.mysql.cj.jdbc.Driver
+  auto:
+    load:
+      popular:
+        drivers: false
 spring:
   datasource:
-    hikari:
-      driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
-      jdbc-url: jdbc:log4jdbc:oracle:thin:@//localhost:1521/XE
-      username: hr
-      password: hr
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/daehakjaza?useSSL=false&useUnicode=true&serverTimezone=Asia/Seoul
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
