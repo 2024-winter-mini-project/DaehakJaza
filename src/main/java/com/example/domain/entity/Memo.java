@@ -1,4 +1,4 @@
-package com.example.Entity;
+package com.example.domain.entity;
 
 import lombok.*;
 import javax.persistence.*;
@@ -12,7 +12,6 @@ import javax.persistence.*;
 public class Memo {
 
     @Id // @Entity 가 붙은 클래스는 PK에 해당하는 특정필드를 @Id로 지정해야 한다
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long mno;
 
     @Column
