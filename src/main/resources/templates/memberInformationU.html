@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- h1 h2 등의 크기를 원하는대로 잡기위해 reset.css 사용 -->
+    <link rel="stylesheet" type="text.css" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/header.css" />
+    <link rel="stylesheet" href="../css/memberinfo.css" />
+    <title>memberInformationS</title>
+</head>
+<body>
+<header>
+    <div class="head-div">
+        <div class="logo-div">
+            <a href=""><img src="../img/logo.png" class="logo" /></a>
+        </div>
+        <div class="menu-div">
+            <a href=""><div class="nav">입시후기</div></a>
+            <a href=""><div class="nav">선배에게 물어요</div></a>
+            <a href=""><div class="nav">커뮤니티</div></a>
+            <a href=""><div class="nav">FAQ</div></a>
+        </div>
+        <div class="user-div">
+            <a href=""><img src="../img/doScrap.png" /></a>
+            <div class="my-info"><img src="../img/defaultProfile.png" /></div>
+        </div>
+    </div>
+</header>
+<hr class="head-main" />
+<section id="contents">
+    <div class="wrapper">
+        <h2>회원정보</h2>
+        <!-- 회원정보 -->
+        <div class="member_info">
+            <div class="left">
+                <div class="name">
+                    <p>이름</p>
+                    <input type="text",id="username",autocomplete="username", placeholder="이름을 입력해주세요."/>
+                </div>
+                <div class="nickname_is">
+                    <p>닉네임</p>
+                    <input type="text" ,id="nickname" ,autocomplete="nickname" />
+                </div>
+                <div class="universityname">
+                    <p>대학명</p>
+                    <input type="text" ,id="universityname" ,autocomplete="universityname" />
+                </div>
+            </div>
+            <div class="right">
+                <div class="profile">
+                    <img src="../img/hakoo.jpg" alt="hakoo" class="profile_image">
+                    <button>
+                        <label>
+                            <span>변경</span>
+                            <span class="sr-only">프로필 사진</span>
+                            <input id="desktop-user-photo" name="user-photo" class="desktop-user-photo">
+                        </label>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- 비밀번호 변경 -->
+        <div class="change_pw">
+            <div class="password_word">
+                <p>비밀번호 변경</p>
+            </div>
+            <div class="change_pw_button">
+                <a href="https://google.com">
+                    <img src="../img/okky.svg" alt="okky" class="okky_svg" />
+                </a>
+            </div>
+        </div>
+        <!-- 회원탈퇴 -->
+        <div class="member_out">
+            <div class="member_out_word">
+                <p>계정삭제</p>
+            </div>
+            <div class="member_out_button">
+                <a href="https://google.com">
+                    <img src="../img/okky.svg" alt="okky" class="okky_svg" />
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
